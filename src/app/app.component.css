@@ -1,0 +1,48 @@
+
+.itr-radar-background {
+  width: 90%;
+  height: 90%;
+  top: 7%;
+  right: 5%;
+}
+.new-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.itr-radar-sweep {
+  z-index: 1000;
+  width: 90%;
+  height: 90%;
+  top: 7%;
+  right: 5%;
+  animation: rotation 3s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+ .itr-center-dot {
+  position: absolute;
+  width: 4.7%;
+  height: 4.7%;
+  top: 52%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #d40511;
+  border-radius: 100%;
+  z-index: 1001;
+}
+.itr-relevancy-legend{
+  z-index:1001;
+}
