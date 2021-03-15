@@ -46,3 +46,34 @@ img {
 .itr-relevancy-legend{
   z-index:1001;
 }
+.itr-nodes a{
+  position:absolute;
+  z-index:1003;
+}
+
+.new-container .node .dot {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    -webkit-transition: background 200ms;
+    transition: background 200ms;
+}
+
+.new-container .node.cat0 .dot {
+    background-color: #4F8CC0;
+}
+.itr-trend-new-container .node .ring {
+    top: -7px;
+    left: -7px;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid #000;
+    -webkit-transition: border 200ms;
+    transition: border 200ms;
+}
